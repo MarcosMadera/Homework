@@ -3,14 +3,14 @@
   "css.validate": false,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.scrollBeyondLastColumn": 2,
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -21,5 +21,6 @@
   "workbench.view.alwaysShowHeaderActions": true,
   "editor.rulers": [
       100, 120
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
